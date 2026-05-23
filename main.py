@@ -1,19 +1,51 @@
+from flask import Flask, render_template, request, redirect
+
+app = Flask(__name__)
+
 employees = []
 
+def load_data():
+    try:
+        file = open("employees.txt", "r")
+        for line in file:
+            data = line.strip().split(",")
+
+            employees.append([
+                data[0],
+                data[1],
+                int(data[2])
+            ])
+
+        file.close()
+    except:
+        pass
+
+#save Data
+
+def save_data():
+    file = open("employees.txt", "w")
+    for emp in employees:
+        file.write(emp[0] + "," + emp[1] + "," + str(emp[2]) + "\n")
+    file.close()
+
+# Home Page
+@app.route("/")
+def home():
+    return render_template("index.html", employees=employees)        
 
 # ADD EMPLOYEE
+@app.route("/add", methods=["POST"])
 def add_employee():
 
-    name = input("Enter Employee Name: ")
-    designation = input("Enter Designation: ")
-    salary = int(input("Enter Salary: "))
+    name = request.form["name"]
+    designation = request.form["designation"]
+    salary = int(request.form["salary"])
 
-    employee = [name, designation, salary]
+    employees.append([name, designation, salary])
+    save_data()
+    return redirect('/')
 
-    employees.append(employee)
-
-    print("Employee Added Successfully")
-
+#
 
 # VIEW EMPLOYEES
 def view_employees():
