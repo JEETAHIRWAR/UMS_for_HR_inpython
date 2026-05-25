@@ -21,7 +21,6 @@ def load_data():
         pass
 
 #save Data
-
 def save_data():
     file = open("employees.txt", "w")
     for emp in employees:
@@ -45,8 +44,74 @@ def add_employee():
     save_data()
     return redirect('/')
 
-#
+# DELETE EMPLOYEE
+@app.route("/delete/<name>")
+def delete_employee(name):
 
+    for emp in employees:
+
+        if emp[0] == name:
+
+            employees.remove(emp)
+
+            save_data()
+
+            break
+
+    return redirect("/")
+
+
+# UPDATE EMPLOYEE
+@app.route("/update/<name>", methods=["POST"])
+def update_employee(name):
+
+    new_designation = request.form["designation"]
+    new_salary = int(request.form["salary"])
+
+    for emp in employees:
+
+        if emp[0] == name:
+
+            emp[1] = new_designation
+            emp[2] = new_salary
+
+            save_data()
+
+            break
+
+    return redirect("/")
+
+
+# SEARCH EMPLOYEE
+@app.route("/search", methods=["POST"])
+def search_employee():
+
+    search_name = request.form["search"]
+
+    filtered_employees = []
+
+    for emp in employees:
+
+        if search_name.lower() in emp[0].lower():
+
+            filtered_employees.append(emp)
+
+    return render_template(
+        "index.html",
+        employees=filtered_employees
+    )
+
+
+# LOAD DATA WHEN SERVER STARTS
+load_data()
+
+
+# RUN FLASK APP
+if __name__ == "__main__":
+
+    app.run(debug=True)
+
+"""
 # VIEW EMPLOYEES
 def view_employees():
 
@@ -206,7 +271,7 @@ while True:
         print("Invalid Choice")
 
 
-
+"""
 
 
 ## Old Code Without Functions

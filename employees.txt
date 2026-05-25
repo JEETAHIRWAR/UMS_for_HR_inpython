@@ -1,0 +1,102 @@
+Aman Verma,Designer,48000
+Priya Singh,HR Manager,60000
+Sneha Patel,Software Engineer,72000
+Rohit Yadav,Data Analyst,65000
+Karan Mehta,Backend Developer,70000
+Anjali Gupta,Frontend Developer,68000
+Vikas Kumar,Project Manager,90000
+Pooja Mishra,UI UX Designer,62000
+Arjun Jain,System Administrator,58000
+Neha Saxena,QA Engineer,54000
+Aditya Tiwari,DevOps Engineer,85000
+Simran Kaur,Cybersecurity Analyst,95000
+Manish Chouhan,Technical Support,45000
+Riya Sharma,Content Writer,40000
+Ayush Raj,Python Developer,75000
+Nikita Joshi,Mobile App Developer,78000
+Harsh Agrawal,Cloud Engineer,92000
+Deepak Soni,Database Administrator,81000
+Kavita Dubey,Business Analyst,73000
+Sahil Khan,SEO Specialist,52000
+Meena Thakur,Recruiter,50000
+Yash Gupta,AI Engineer,120000
+Tanya Kapoor,Machine Learning Engineer,115000
+Mohit Bansal,Network Engineer,69000
+Aarti Jain,Software Tester,51000
+Rakesh Prajapati,IT Support Engineer,47000
+Komal Verma,Graphic Designer,46000
+Shubham Patel,Java Developer,76000
+Payal Sharma,React Developer,82000
+Nitin Yadav,Angular Developer,79000
+Ruchi Singh,MERN Stack Developer,46000
+Sandeep Gupta,Developer,1000000
+Divya Mishra,Digital Marketer,53000
+Ankit Tiwari,Ethical Hacker,98000
+Muskan Jain,Data Scientist,130000
+Pankaj Kumar,Full Stack Developer,88000
+Sakshi Verma,Software Architect,150000
+Gaurav Singh,Team Leader,97000
+Isha Patel,Customer Support,39000
+Abhishek Sharma,Node JS Developer,86000
+Reena Gupta,Office Manager,57000
+Vivek Yadav,Android Developer,84000
+Khushi Mehta,iOS Developer,89000
+Raj Verma,Blockchain Developer,140000
+Shreya Jain,Game Developer,95000
+Tarun Singh,Embedded Engineer,93000
+Mansi Kapoor,Automation Tester,67000
+Lokesh Gupta,Tech Lead,125000
+Akash Patel,Intern,20000
+Sonal Sharma,Receptionist,30000
+Naveen Tiwari,Security Analyst,91000
+Jyoti Verma,Data Engineer,102000
+Varun Jain,Software Consultant,108000
+Ritu Yadav,Marketing Executive,55000
+Hemant Singh,Operations Manager,98000
+Preeti Sharma,Admin Executive,42000
+Kunal Patel,Web Developer,65000
+Rohini Gupta,Social Media Manager,59000
+Ashish Kumar,Penetration Tester,112000
+Nisha Jain,Research Analyst,71000
+Vijay Verma,IT Manager,135000
+Aakash Singh,Support Executive,36000
+Palak Sharma,Content Strategist,61000
+Rajat Patel,Sales Executive,50000
+Surbhi Mehta,Finance Executive,64000
+Mayank Gupta,JavaScript Developer,74000
+Anu Verma,Data Entry Operator,28000
+Ramesh Yadav,Office Assistant,25000
+Chirag Jain,Software Trainer,83000
+Swati Mishra,Business Development Executive,68000
+Dev Sharma,Cloud Architect,160000
+Tanvi Gupta,Technical Recruiter,56000
+Prakash Singh,Server Administrator,77000
+Monika Verma,Python Trainer,72000
+Amanpreet Kaur,Security Engineer,99000
+Suraj Patel,Help Desk Executive,34000
+Ritika Sharma,AI Researcher,145000
+Nikhil Gupta,Automation Engineer,87000
+Alok Tiwari,CRM Manager,78000
+Bhavna Patel,Support Analyst,52000
+Keshav Sharma,Junior Developer,45000
+Garima Singh,Senior Developer,110000
+Faizan Khan,Database Engineer,86000
+Lavanya Mehta,Creative Designer,57000
+Saurabh Yadav,Software Consultant,104000
+Pallavi Gupta,HR Executive,49000
+Dheeraj Sharma,Ethical Hacking Trainer,118000
+Tina Verma,Frontend Intern,18000
+Rahul Raj,Backend Intern,19000
+Prerna Singh,Operations Executive,61000
+Yogesh Patel,Network Security Engineer,109000
+Bhavesh Jain,AI Consultant,155000
+Sanya Kapoor,Full Stack Intern,22000
+Mahesh Verma,Technical Writer,65000
+Rupal Sharma,QA Analyst,56000
+Imran Khan,System Engineer,82000
+Anushka Gupta,Machine Learning Intern,25000
+Kartik Yadav,Python Intern,21000
+Priti Jain,Business Consultant,98000
+Arvind Singh,Chief Technology Officer,250000
+Suhani Patel,Software Engineer,70000
+Manoj Sharma,Senior HR Manager,120000
